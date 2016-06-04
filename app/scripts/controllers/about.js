@@ -8,7 +8,7 @@
  * Controller of the reachrageplansApp
  */
 angular.module('reachrageplansApp')
-  .controller('AboutCtrl', function ($scope, user) {
+  .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
